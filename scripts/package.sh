@@ -16,6 +16,7 @@ TARGET_ZIP="$OUT_DIR/$ZIP_NAME"
 BAZAAR_ZIP="$OUT_DIR/package.zip"
 
 echo "[*] 正在打包思源 AI 创作工坊插件: $ZIP_NAME 及集市标准包 package.zip..."
+rm -f "$TARGET_ZIP" "$BAZAAR_ZIP"
 zip -r "$TARGET_ZIP" \
     plugin.json \
     index.js \
@@ -23,6 +24,8 @@ zip -r "$TARGET_ZIP" \
     style.css \
     icon.png \
     README.md \
+    README.zh-CN.md \
+    LICENSE \
     i18n/ \
     modules/
 

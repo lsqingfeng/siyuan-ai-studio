@@ -1,41 +1,39 @@
-# 墨阵 · AI 创作工坊 (SiYuan AI Studio)
+# SiYuan AI Studio (AI 创作工坊)
 
-> 思源笔记原生 AI 创作副驾驶 · 在侧边栏与 AI 边聊边写，流式极速响应，一键转为思源新笔记，支持一键分享到飞书与 CLI 扩展！  
-> **100% 纯前端/Node 实现，零 Python 依赖，零后台端口，即装即用。**
+[English](./README.md) | [简体中文](./README.zh-CN.md)
 
----
-
-## 🌟 核心特性
-
-1. **极速流式对话 (Stream Typewriter)**：
-   - 兼容标准 OpenAI 协议（DeepSeek V3/R1、OpenAI GPT-4o、月之暗面 Kimi、本地 Ollama）；
-   - 支持 SSE 流式传输，打字机实时上屏，告别长时间等待。
-2. **思源上下文深度感知**：
-   - **📎 引用当前文档**：一键将正在编辑的笔记正文注入 AI 上下文进行润色与探讨；
-   - **✂️ 引用划选文字**：用鼠标高亮一段文字，一键发送给 AI 针对性提问。
-3. **闭环杀手级动作（每条 AI 消息一键落盘）**：
-   - 🟢 **【📄 转为思源新笔记】**：自动提炼标题，按 `/AI创作/YYYY-MM-DD_题目` 自动创建纯净思源文档；
-   - 🔵 **【📝 插入当前文档】**：秒级将生成内容追加到当前正在编辑的笔记光标处；
-   - 📋 **【一键复制 Markdown】**。
-4. **🚀 飞书生态深度联动与 CLI 扩展性**：
-   - **飞书群 Webhook 一键分享**：配置自定义机器人 Webhook，一键将 AI 创作方案推送到飞书群交互卡片；
-   - **飞书 CLI / 任意命令行扩展**：内置命令模板占位符 `{title}` 与 `{content}`，无缝调用 `feishu-cli` 或自定义脚本。
-5. **创作者高频提示词库**：
-   - ✨ 人话润色 (去 AI 味/去八股套话)
-   - 📋 爆款大纲策划
-   - 💻 深度架构实战长文
-   - 🚀 飞书方案文档规范
-   - 📕 小红书真实经验笔记
+> Native AI creative co-pilot for SiYuan Note. Chat, polish, summarize, stream generate, and write back into documents seamlessly!  
+> **100% frontend/Node implementation with zero Python dependency and zero external server ports.**
 
 ---
 
-## 🚀 极速安装与使用
+## 🌟 Key Features
 
-### 1. 安装插件
-- 将本项目整个文件夹复制到思源笔记插件目录：
-  `思源笔记数据目录/data/plugins/siyuan-ai-studio`
-- 重启思源笔记，在 **设置 -> 集市 -> 已安装插件** 中启用 **“AI 创作工坊 (AI Studio)”**。
+1. **Active Document Awareness by Default**:
+   - Built-in live document context indicator bar in sidebar;
+   - Automatically reads the currently opened note when you ask to polish, summarize, or explain—no manual copy-pasting needed.
 
-### 2. 快捷呼出
-- **快捷键**：按 **`⌥A`**（Option + A）秒级呼出独立对话窗口；
-- **右侧侧边栏**：点击思源右下角 Dock 栏中的 ✨ 图标，可将 AI 创作工坊常驻在思源右侧，边读笔记边写方案！
+2. **Automated Intent Recognition & Action Loop**:
+   - **Full Knowledge RAG & Chapter Jump**: Ask *“Find test environment credentials”* and get instant block-level results with direct section navigation and highlights;
+   - **Semantic Note Creation**: Ask *“Write a Docker guide to /tech-docs/containers”* and it creates notes in clean semantic hierarchy;
+   - **One-Click Writeback**: Directly replace or overwrite the active document with polished results.
+
+3. **Multi-Model & Fast Streaming Support**:
+   - Supports DeepSeek-V4 Pro / Flash, DeepSeek-V3 / R1, GPT-4o, Claude 3.5 Sonnet, Kimi, and local Ollama;
+   - Server-Sent Events (SSE) typewriter-style real-time streaming.
+
+4. **Seamless Integration**:
+   - Shortcut `⌥A` (Option + A) for instant popup dialog;
+   - Dock icon in lower-right corner for persistent sidebar co-writing.
+
+---
+
+## 🚀 Installation
+
+### Via SiYuan Bazaar (Recommended)
+Go to **Settings -> Bazaar -> Plugins**, search for **"AI Studio"** or **"AI 创作工坊"**, and click install.
+
+---
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).

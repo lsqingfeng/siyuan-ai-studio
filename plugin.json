@@ -14,12 +14,18 @@
     "desktop-window"
   ],
   "displayName": {
-    "default": "AI Studio - Creative Workspace",
-    "zh_CN": "AI 创作工坊 (AI Studio)"
+    "default": "AI Studio - Creative Co-pilot",
+    "zh-CN": "AI 创作工坊",
+    "zh_CN": "AI 创作工坊"
   },
   "description": {
-    "default": "In-note AI co-writing workspace: chat, stream generate, and convert directly into SiYuan Note documents with one click.",
-    "zh_CN": "思源原生 AI 创作副驾驶：在侧边栏与 AI 边聊边写，支持流式对话，一键把生成内容转为思源新笔记或插入当前文档。"
+    "default": "In-note AI co-pilot: chat, polish, summarize, and write back into SiYuan documents seamlessly with multi-model support.",
+    "zh-CN": "思源原生 AI 创作副驾驶：在侧边栏与 AI 边聊边写，默认感知当前文档，支持全库 RAG 知识检索、一键写回原文档与自动创建新笔记。",
+    "zh_CN": "思源原生 AI 创作副驾驶：在侧边栏与 AI 边聊边写，默认感知当前文档，支持全库 RAG 知识检索、一键写回原文档与自动创建新笔记。"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh-CN": "README.zh-CN.md"
   },
   "icon": "icon.png"
 }
