@@ -1,0 +1,25 @@
+{
+  "name": "siyuan-ai-studio",
+  "author": "lsqingfeng",
+  "url": "https://github.com/lsqingfeng/siyuan-ai-studio",
+  "version": "1.0.0",
+  "minAppVersion": "2.10.0",
+  "backends": [
+    "windows",
+    "linux",
+    "darwin"
+  ],
+  "frontends": [
+    "desktop",
+    "desktop-window"
+  ],
+  "displayName": {
+    "default": "AI Studio - Creative Workspace",
+    "zh_CN": "AI 创作工坊 (AI Studio)"
+  },
+  "description": {
+    "default": "In-note AI co-writing workspace: chat, stream generate, and convert directly into SiYuan Note documents with one click.",
+    "zh_CN": "思源原生 AI 创作副驾驶：在侧边栏与 AI 边聊边写，支持流式对话，一键把生成内容转为思源新笔记或插入当前文档。"
+  },
+  "icon": "icon.png"
+}

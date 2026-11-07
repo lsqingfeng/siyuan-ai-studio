@@ -1,0 +1,9 @@
+{
+  "pluginName": "AI Studio",
+  "openStudio": "Open AI Studio",
+  "createDoc": "Convert to New Note",
+  "insertDoc": "Insert into Active Note",
+  "copyMarkdown": "Copy Markdown",
+  "clearChat": "Clear Conversation",
+  "settings": "AI Studio Settings"
+}

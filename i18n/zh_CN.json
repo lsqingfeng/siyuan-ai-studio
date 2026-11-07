@@ -1,0 +1,9 @@
+{
+  "pluginName": "AI 创作工坊",
+  "openStudio": "打开 AI 创作工坊",
+  "createDoc": "一键转为新笔记",
+  "insertDoc": "插入当前文档",
+  "copyMarkdown": "复制 Markdown",
+  "clearChat": "清空对话",
+  "settings": "AI 创作设置"
+}
